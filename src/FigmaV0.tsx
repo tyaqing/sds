@@ -1,10 +1,10 @@
 import { AllProviders } from "data";
-import OffileV1 from "./examples/OffileV1";
+import PlatformDesktop from "./examples/FigmaPlatformDesktop";
 
 function App() {
   return (
     <AllProviders>
-      <OffileV1 />
+      <PlatformDesktop />
     </AllProviders>
   );
 }
