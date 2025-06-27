@@ -1,40 +1,16 @@
 {
   "codeConnect": {
     "include": [
-      "src/ui/**/*",
-      "src/figma/**/*"
+      "src/figma/primitives/BasicButtonContained.figma.tsx"
     ],
-    "exclude": [
-      "src/figma/icons/*"
-    ],
+    "exclude": [],
     "parser": "react",
     "importPaths": {
       "ui/primitives/BasicButtonContained": "primitives"
     },
     "paths": {
-      "compositions": [
-        "src/ui/compositions"
-      ],
-      "hooks": [
-        "src/ui/hooks"
-      ],
-      "icons": [
-        "src/ui/icons"
-      ],
-      "images": [
-        "src/ui/images"
-      ],
-      "layout": [
-        "src/ui/layout"
-      ],
       "primitives": [
         "src/ui/primitives"
-      ],
-      "providers": [
-        "src/ui/providers"
-      ],
-      "utils": [
-        "src/ui/utils"
       ]
     },
     "documentUrlSubstitutions": {}
