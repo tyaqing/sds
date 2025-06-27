@@ -37,8 +37,6 @@
         "src/ui/utils"
       ]
     },
-    "documentUrlSubstitutions": {
-      "<FIGMA_ICONS_BASE>": "https://www.figma.com/design/2TnwsFNeqz0UQXhdDlFeuy"
-    }
+    "documentUrlSubstitutions": {}
   }
 }
